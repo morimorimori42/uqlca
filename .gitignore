@@ -1,0 +1,16 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environments
+.env
+.venv
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+env/
+venv/
+.uqlca/
+
+# Avoid OS/system clutter
+.DS_Store
