@@ -1,9 +1,9 @@
 import openturns as ot
 import math
 from typing import List
-from uqlca.models.models import Layer, EmissionFactor, StageA1, StageA2, StageA3, StageA4, StageA5, SampledEmissionFactor, Equipment
-from uqlca.models.results import A1Result, A2Result, A3Result, A4Result, A5Result
-from uqlca.calculator.deterministic_calculator import LCACalculator  # Assuming LCACalculator is imported from another file
+from models.models import Layer, EmissionFactor, StageA1, StageA2, StageA3, StageA4, StageA5, SampledEmissionFactor, Equipment
+from models.results import A1Result, A2Result, A3Result, A4Result, A5Result
+from calculator.deterministic_calculator import LCACalculator  # Assuming LCACalculator is imported from another file
 
 class ProbabilisticLCACalculator(LCACalculator):
     def __init__(self, layers: List[Layer], emission_factors: List[EmissionFactor]):

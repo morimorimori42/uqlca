@@ -1,4 +1,4 @@
-from uqlca.models.models import EmissionFactor, Material, Layer, Equipment, DesignOption, LayerType
+from models.models import EmissionFactor, Material, Layer, Equipment, DesignOption, LayerType
 from typing import Dict, List, Tuple
 
 def create_layers(layers_data: Dict) -> List[Layer]:    

@@ -1,9 +1,9 @@
 import openturns as ot
 import math
 from typing import List
-from uqlca.models.models import Layer, EmissionFactor, DesignOption, SampledEmissionFactor, StageA1, StageA2, StageA3, StageA4, StageA5
-from uqlca.models.results import A1Result, A2Result, A3Result, A4Result, A5Result
-from uqlca.calculator.deterministic_calculator import LCACalculator
+from models.models import Layer, EmissionFactor, DesignOption, SampledEmissionFactor, StageA1, StageA2, StageA3, StageA4, StageA5
+from models.results import A1Result, A2Result, A3Result, A4Result, A5Result
+from calculator.deterministic_calculator import LCACalculator
 
 class DesignOptionProbabilisticLCACalculator(LCACalculator):
     def __init__(self, layers: List[Layer], emission_factors: List[EmissionFactor], design_options: List[DesignOption], length_road: float):

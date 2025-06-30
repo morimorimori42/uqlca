@@ -1,5 +1,5 @@
-from uqlca.models.models import StageA1, StageA2, StageA3, StageA4, StageA5, Layer, EmissionFactor, DesignOption
-from uqlca.models.results import A1Result, A2Result, A3Result, A4Result, A5Result, LayerResult, DesignOptionResult
+from models.models import StageA1, StageA2, StageA3, StageA4, StageA5, Layer, EmissionFactor, DesignOption
+from models.results import A1Result, A2Result, A3Result, A4Result, A5Result, LayerResult, DesignOptionResult
 from typing import List
 
 class LCACalculator:
