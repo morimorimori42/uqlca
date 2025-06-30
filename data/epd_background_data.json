@@ -1,0 +1,121 @@
+{
+  "emission_factors": [
+    {
+      "material": "aggregates",
+      "mean_total": 2.94,
+      "mean_fossil": 2.9325,
+      "mean_biogenic": -0.01065125,
+      "mean_luluc": 0.01767,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "filler",
+      "mean_total": 2.83,
+      "mean_fossil": 2.83,
+      "mean_biogenic": -0.024065,
+      "mean_luluc": 0.0197,
+      "cov": 0.15,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "bitumen",
+      "mean_total": 106,
+      "mean_fossil": 109,
+      "mean_biogenic": -3.19,
+      "mean_luluc": 0.134,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "diesel",
+      "mean_total": 3.696,
+      "mean_fossil": 3.695,
+      "mean_biogenic": 0.00043,
+      "mean_luluc": 0.000315,
+      "cov": 0.15,
+      "unit": "kgCO2e/L"
+    },
+    {
+      "material": "electricity",
+      "mean_total": 0.3595,
+      "mean_fossil": 0.3553,
+      "mean_biogenic": 0.004113,
+      "mean_luluc": 0.00006844,
+      "cov": 0.08,
+      "unit": "kgCO2e/kWh"
+    },
+    {
+      "material": "thermal_energy",
+      "mean_total": 0.2938,
+      "mean_fossil": 0.2933,
+      "mean_biogenic": 0.0004701,
+      "mean_luluc": 0.0000155,
+      "cov": 0.10,
+      "unit": "kgCO2e/kWh"
+    },
+    {
+      "material": "geotextile",
+      "mean_total": 2535,
+      "mean_fossil": 2507,
+      "mean_biogenic": 21.37,
+      "mean_luluc": 0.3644,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "cemI",
+      "mean_total": 708.48,
+      "mean_fossil": 708.22,
+      "mean_biogenic": 0.42524,
+      "mean_luluc": 0.053204,
+      "cov": 0.1,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "admixture",
+      "mean_total": 444,
+      "mean_fossil": 504,
+      "mean_biogenic": -60.9,
+      "mean_luluc": 0.696,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "water",
+      "mean_total": 0.1204,
+      "mean_fossil": 0.11,
+      "mean_biogenic": 0.0103,
+      "mean_luluc": 0.0000883,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "slag",
+      "mean_total": 164,
+      "mean_fossil": 164,
+      "mean_biogenic": 0.0116,
+      "mean_luluc": 0.137,
+      "cov": 0.15,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "pmb",
+      "mean_total": 329,
+      "mean_fossil": 297,
+      "mean_biogenic": 32.5,
+      "mean_luluc": 0.254,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    },
+    {
+      "material": "fly_ash",
+      "mean_total": 1.85,
+      "mean_fossil": 1.83,
+      "mean_biogenic": 0.00288,
+      "mean_luluc": 0.0129,
+      "cov": 0.12,
+      "unit": "kgCO2e/t"
+    }
+  ]
+}

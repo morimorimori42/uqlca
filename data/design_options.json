@@ -1,0 +1,103 @@
+{
+    "design_options": [
+        {
+            "name": "base_design",
+            "layer_type": [
+                {
+                    "name": "asphalt_surface_course_bitumen",
+                    "thickness": 0.02,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "asphalt_concrete_binder_course_bitumen",
+                    "thickness": 0.1,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "asphalt_base_course",
+                    "thickness": 0.22,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "cement_stabilized_base_course",
+                    "thickness": 0.15,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "frost_base_course",
+                    "thickness": 0.21,
+                    "quantity": 1,
+                    "density": 1.5
+                }
+            ]
+        },
+        {
+            "name": "alternative_design1",
+            "layer_type": [
+                {
+                    "name": "asphalt_surface_course_bitumen",
+                    "thickness": 0.02,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "asphalt_concrete_binder_course_bitumen",
+                    "thickness": 0.1,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "asphalt_base_course",
+                    "thickness": 0.18,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "crushed_rocks_course",
+                    "thickness": 0.15,
+                    "quantity": 1,
+                    "density": 1.5
+                },
+                {
+                    "name": "frost_base_course",
+                    "thickness": 0.3,
+                    "quantity": 1,
+                    "density": 1.5
+                }
+            ]
+        },
+        {
+            "name": "alternative_design2",
+            "layer_type": [
+                {
+                    "name": "concrete_c30_37_cem_I",
+                    "thickness": 0.27,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "geotextile_layer",
+                    "thickness": 0.0005,
+                    "quantity": 1,
+                    "density": 0.16
+                },
+                {
+                    "name": "cement_stabilized_base_course",
+                    "thickness": 0.15,
+                    "quantity": 1,
+                    "density": 2.4
+                },
+                {
+                    "name": "frost_base_course",
+                    "thickness": 0.33,
+                    "quantity": 1,
+                    "density": 1.5
+                }
+            ]
+        }
+    ]
+}

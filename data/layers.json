@@ -1,0 +1,735 @@
+{
+    "layers": [
+      {
+        "name": "asphalt_concrete_surface_course_bitumen",
+        "abbreviation": "acscb",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.3318,
+            "transport_distance_a2": 40,
+            "mass_a2": 331.8
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.4029,
+            "transport_distance_a2": 40,
+            "mass_a2": 402.9
+          },
+          {
+            "name": "filler",
+            "composition": 0.2133,
+            "transport_distance_a2": 40,
+            "mass_a2": 213.3
+          },
+          {
+            "name": "bitumen",
+            "composition": 0.0520,
+            "transport_distance_a2": 150,
+            "mass_a2": 52
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 76.111,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "mid_range_asphalt_paver",
+            "number": 1,
+            "productivity": 1000,
+            "productivity_unit": "t/h",
+            "energy_type": "diesel",
+            "energy": 15,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "pneumatic_tyre_roller_for_compaction",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.4,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": 2.4,
+        "thickness": 0.3
+      },
+      {
+        "name": "asphalt_concrete_surface_course_pmb",
+        "abbreviation": "acscpmb",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.3318,
+            "transport_distance_a2": 40,
+            "mass_a2": 331.8
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.4029,
+            "transport_distance_a2": 40,
+            "mass_a2": 402.9
+          },
+          {
+            "name": "filler",
+            "composition": 0.2133,
+            "transport_distance_a2": 40,
+            "mass_a2": 213.3
+          },
+          {
+            "name": "pmb",
+            "composition": 0.0520,
+            "transport_distance_a2": 150,
+            "mass_a2": 52
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 76.111,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "mid_range_asphalt_paver",
+            "number": 1,
+            "productivity": 1000,
+            "productivity_unit": "t/h",
+            "energy_type": "diesel",
+            "energy": 15,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "pneumatic_tyre_roller_for_compaction",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.4,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": 2.4,
+        "thickness": 0.3
+      },
+      {
+        "name": "asphalt_concrete_binder_course_bitumen",
+        "abbreviation": "acbcb",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.5051,
+            "transport_distance_a2": 40,
+            "mass_a2": 505.1
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.3240,
+            "transport_distance_a2": 40,
+            "mass_a2": 324.0
+          },
+          {
+            "name": "filler",
+            "composition": 0.1239,
+            "transport_distance_a2": 40,
+            "mass_a2": 123.9
+          },
+          {
+            "name": "bitumen",
+            "composition": 0.0470,
+            "transport_distance_a2": 150,
+            "mass_a2": 47
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 76.111,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "mid_range_asphalt_paver",
+            "number": 1,
+            "productivity": 1000,
+            "productivity_unit": "t/h",
+            "energy_type": "diesel",
+            "energy": 15,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "pneumatic_tyre_roller_for_compaction",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.4,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "asphalt_base_course",
+        "abbreviation": "abc",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.3938,
+            "transport_distance_a2": 40,
+            "mass_a2": 393.8
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.4318,
+            "transport_distance_a2": 40,
+            "mass_a2": 431.8
+          },
+          {
+            "name": "filler",
+            "composition": 0.1234,
+            "transport_distance_a2": 40,
+            "mass_a2": 123.4
+          },
+          {
+            "name": "bitumen",
+            "composition": 0.051,
+            "transport_distance_a2": 150,
+            "mass_a2": 51
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 76.111,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "mid_range_asphalt_paver",
+            "number": 1,
+            "productivity": 1000,
+            "productivity_unit": "t/h",
+            "energy_type": "diesel",
+            "energy": 15,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "pneumatic_tyre_roller_for_compaction",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.4,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "concrete_c30_37_cem_I",
+        "abbreviation": "ccemI",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.4601,
+            "transport_distance_a2": 40,
+            "mass_a2": 460.1
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.2780,
+            "transport_distance_a2": 40,
+            "mass_a2": 278.0
+          },
+          {
+            "name": "filler",
+            "composition": 0.056,
+            "transport_distance_a2": 40,
+            "mass_a2": 56
+          },
+          {
+            "name": "cemI",
+            "composition": 0.1420,
+            "transport_distance_a2": 150,
+            "mass_a2": 142.0
+          },
+          {
+            "name": "admixture",
+            "composition": 0.0007,
+            "transport_distance_a2": 100,
+            "mass_a2": 1.0
+          },
+          {
+            "name": "water",
+            "composition": 0.064,
+            "transport_distance_a2": 5,
+            "mass_a2": 64.0
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 5,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "concrete_placer_spreader",
+            "number": 1,
+            "productivity": 2305.8,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 41.6,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "concrete_slip_form_paver",
+            "number": 1,
+            "productivity": 24,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 29.9,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "texture_cure_machine",
+            "number": 1,
+            "productivity": 4620,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.5,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "concrete_c30_37_cem_II",
+        "abbreviation": "ccemII",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.4601,
+            "transport_distance_a2": 40,
+            "mass_a2": 460.1
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.2780,
+            "transport_distance_a2": 40,
+            "mass_a2": 278.0
+          },
+          {
+            "name": "filler",
+            "composition": 0.056,
+            "transport_distance_a2": 40,
+            "mass_a2": 56
+          },
+          {
+            "name": "cemI",
+            "composition": 0.1136,
+            "transport_distance_a2": 150,
+            "mass_a2": 113.6
+          },
+          {
+            "name": "slag",
+            "composition": 0.0284,
+            "transport_distance_a2": 300,
+            "mass_a2": 28.4  
+          },
+          {
+            "name": "admixture",
+            "composition": 0.0007,
+            "transport_distance_a2": 100,
+            "mass_a2": 1.0
+          },
+          {
+            "name": "water",
+            "composition": 0.064,
+            "transport_distance_a2": 5,
+            "mass_a2": 64.0
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 5,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "concrete_placer_spreader",
+            "number": 1,
+            "productivity": 2305.8,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 41.6,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "concrete_slip_form_paver",
+            "number": 1,
+            "productivity": 24,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 29.9,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "texture_cure_machine",
+            "number": 1,
+            "productivity": 4620,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.5,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "asphalt_surface_course_bitumen",
+        "abbreviation": "ascb",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.50,
+            "transport_distance_a2": 40,
+            "mass_a2": 500.0
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.1920,
+            "transport_distance_a2": 40,
+            "mass_a2": 192.0
+          },
+          {
+            "name": "filler",
+            "composition": 0.24,
+            "transport_distance_a2": 40,
+            "mass_a2": 240.0
+          },
+          {
+            "name": "bitumen",
+            "composition": 0.0680,
+            "transport_distance_a2": 150,
+            "mass_a2": 68
+          }
+        ],
+        "energy_used_a3": "thermal_energy",
+        "energy_consumption_a3": 76.111,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "mid_range_asphalt_paver",
+            "number": 1,
+            "productivity": 1000,
+            "productivity_unit": "t/h",
+            "energy_type": "diesel",
+            "energy": 15,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "pneumatic_tyre_roller_for_compaction",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 12.4,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "geotextile_layer",
+        "abbreviation": "nwf",
+        "materials": [
+          {
+            "name": "geotextile",
+            "composition": 0,
+            "transport_distance_a2": 0,
+            "mass_a2": 0
+          }
+        ],
+        "energy_used_a3": "electricity",
+        "energy_consumption_a3": 0,
+        "transport_distance_a4": 500,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "compact_wheel_loader_tapered_pole",
+            "number": 1,
+            "productivity": 223.1,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 9.5,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "cement_stabilized_base_course",
+        "abbreviation": "hbb",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0.60,
+            "transport_distance_a2": 40,
+            "mass_a2": 600.0
+          },
+          {
+            "name": "aggregates",
+            "composition": 0.30,
+            "transport_distance_a2": 40,
+            "mass_a2": 300.0
+          },
+          {
+            "name": "cemI",
+            "composition": 0.04,
+            "transport_distance_a2": 40,
+            "mass_a2": 40
+          },
+          {
+            "name": "water",
+            "composition": 0.06,
+            "transport_distance_a2": 5,
+            "mass_a2": 60
+          }
+        ],
+        "energy_used_a3": "electricity",
+        "energy_consumption_a3": 25.9722,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "bulldozer_crawler",
+            "number": 2,
+            "productivity": 100.1,
+            "productivity_unit": "m3/h",
+            "energy_type": "diesel",
+            "energy": 30,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "motor_grader",
+            "number": 1,
+            "productivity": 12400,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 11.7,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "frost_base_course",
+        "abbreviation": "fbc",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0,
+            "transport_distance_a2": 0,
+            "mass_a2": 0
+          }
+        ],
+        "energy_used_a3": "electricity",
+        "energy_consumption_a3": 0,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "mid_range_excavator",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 14,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "bulldozer_crawler",
+            "number": 2,
+            "productivity": 100.1,
+            "productivity_unit": "m3/h",
+            "energy_type": "diesel",
+            "energy": 30,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "motor_grader",
+            "number": 1,
+            "productivity": 12400,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 11.7,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "sheepsfoot_roller",
+            "number": 1,
+            "productivity": 1377.8,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 14.8,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      },
+      {
+        "name": "crushed_rocks_course",
+        "abbreviation": "cr",
+        "materials": [
+          {
+            "name": "aggregates",
+            "composition": 0,
+            "transport_distance_a2": 0,
+            "mass_a2": 0
+          }
+        ],
+        "energy_used_a3": "electricity",
+        "energy_consumption_a3": 0,
+        "transport_distance_a4": 40,
+        "mass_a4": 1,
+        "construction_a5": [
+          {
+            "name": "tandem_vibratory_roller",
+            "number": 2,
+            "productivity": 1122,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 6.9,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "mid_range_excavator",
+            "number": 2,
+            "productivity": 1890,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 14,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "bulldozer_crawler",
+            "number": 2,
+            "productivity": 100.1,
+            "productivity_unit": "m3/h",
+            "energy_type": "diesel",
+            "energy": 30,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "motor_grader",
+            "number": 1,
+            "productivity": 12400,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 11.7,
+            "energy_unit": "L/h"
+          },
+          {
+            "name": "sheepsfoot_roller",
+            "number": 1,
+            "productivity": 1377.8,
+            "productivity_unit": "m2/h",
+            "energy_type": "diesel",
+            "energy": 14.8,
+            "energy_unit": "L/h"
+          }
+        ],
+        "quantity_a5_ton": 1,
+        "quantity_a5_m2": 1,
+        "density": null,
+        "thickness": null
+      }
+    ]
+}
