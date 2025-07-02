@@ -55,5 +55,5 @@ full_results = [full_db1_do1_results, full_db2_do1_results, full_db3_do1_results
 aggregated_results = [aggregated_db1_do1_results, aggregated_db2_do1_results, aggregated_db3_do1_results]
 
 ## Visualizations
-plot_lca_distributions_by_design_option(full_results)
-plot_overall_lca_distributions(full_results)
+# plot_lca_distributions_by_design_option(full_results)
+# plot_overall_lca_distributions(full_results)
