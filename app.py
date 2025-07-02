@@ -52,16 +52,18 @@ do_probabilistic_lca_calculator = DesignOptionProbabilisticLCACalculator(layers=
 db3_probabilistic_results = do_probabilistic_lca_calculator.calculate_do_probabilistic_impact(n_samples=1000)
 aggregated_db3_results = do_probabilistic_lca_calculator.collect_aggregated_data(db3_probabilistic_results)
 full_db3_results = do_probabilistic_lca_calculator.collect_overall_aggregated_data(db3_probabilistic_results)
-
 full_results = [full_db1_results, full_db2_results, full_db3_results]
 aggregated_results = [aggregated_db1_results, aggregated_db2_results, aggregated_db3_results]
 
+## Statistical parameters for life cycle stages in json format
+## This will create a json file with the statistical parameters for each life cycle stage
+## and save it in the results folder. The json file will contain the mean, std, cov, ... 
 stat_results_ecoinvent = calculate_statistical_parameters_life_cycle_stages(aggregated_db1_results)
-stat_results_ecoinvent_json = convert_statistical_data_to_json(stat_results_ecoinvent, "ecoinvent_results.json")
+stat_results_ecoinvent_json = convert_statistical_data_to_json(stat_results_ecoinvent, "results/ecoinvent_results.json")
 stat_results_national = calculate_statistical_parameters_life_cycle_stages(aggregated_db2_results)
-stat_results_national_json = convert_statistical_data_to_json(stat_results_national, "national_results.json")
+stat_results_national_json = convert_statistical_data_to_json(stat_results_national, "results/national_results.json")
 stat_results_epd = calculate_statistical_parameters_life_cycle_stages(aggregated_db3_results)
-stat_results_epd_json = convert_statistical_data_to_json(stat_results_epd, "epd_results.json")
+stat_results_epd_json = convert_statistical_data_to_json(stat_results_epd, "results/epd_results.json")
 
 ## Visualizations
 # plot_lca_distributions_by_design_option(full_results)
